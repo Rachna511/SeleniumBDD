@@ -33,6 +33,7 @@ public class Steps {
     {		
        driver.findElement(By.id(“log-in")).click();					
     }	
+  }
 	@Then(“Get hyperlinks in the page” )					
    	 public void Get_Hyperlinks() throws Throwable 	
     {
